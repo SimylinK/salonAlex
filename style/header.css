@@ -2,6 +2,7 @@
 {
     font-family: sans-serif;
 
+
     margin: 0;
     padding: 0;
 }
@@ -15,6 +16,17 @@ div
     background-color: #292c2f;
 }
 
+/* The company logo */
+
+.header a h1{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.header a h1 span{
+  color:  crimson;
+}
 
 #header
 {
@@ -140,6 +152,7 @@ div
     vertical-align: middle;
 
     color: #fff;
+
 }
 
 #header ul li:hover
@@ -149,4 +162,9 @@ div
     color: crimson;
     border-bottom: 8px solid crimson;
     background-color: #333;
+}
+
+#header a span
+{
+    color: crimson;
 }

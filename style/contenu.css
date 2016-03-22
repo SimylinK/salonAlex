@@ -8,8 +8,17 @@ a {
 	color : black;
 }
 
+p{
+	color : #555;
+}
+
 ul {
 	list-style-type: none;
+	color : #555;
+}
+
+table{
+	color : #555;
 }
 
 
@@ -17,17 +26,41 @@ ul {
 	color : crimson;
 }
 
-.container_12 h1 {
-	font-family: "Cookie", Georgia, Serif;
-	font-weight: normal;
-	color : black;
+.container_12 {
+	margin-top: 3px;
 }
+
+
+.presentation {
+	padding-left: 15px;
+	margin-bottom: 50px
+}
+	.presentation h2 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		width: 315px;
+		text-transform: uppercase;
+		font-size: 1.42em;
+		border-bottom: 1px solid crimson;
+	}
+	.presentation p {
+		letter-spacing: 1px;
+		line-height: 22px;
+	}
 
 .horaires {
 	margin-left: 0px;
 	margin-right: 0px;
-	color : #555;
+	margin-bottom: 60px;
 }
+	.horaires legend {
+		font-size: 1.10em;
+	}
+	.horaires h1 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		color : black;
+	}
 	.horaires .horaires_grid {
 		margin : 6px;
 	}
@@ -38,8 +71,37 @@ ul {
 			width : 250px;
 			margin-bottom: 10px;
 		}
+	.horaires table td {
+		padding-left : 15px;
+	}
+		
 
-
+.apropos {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+	.apropos legend {
+		font-size: 1.10em;
+	}
+	.apropos h1 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		color : black;
+	}
+	.apropos .apropos_grid {
+		
+	}
+	.apropos ul {
+		padding-left : 15px;
+	}
+		.apropos ul li {
+			width : 250px;
+			margin-bottom: 10px;
+		}
+	.apropos table td {
+		padding-left : 15px;
+	}
 
 
 

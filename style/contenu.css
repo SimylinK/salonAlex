@@ -11,9 +11,7 @@ a {
 ul {
 	list-style-type: none;
 }
-	ul li {
-		margin-bottom: 5px;
-	}
+
 
 .crimson {
 	color : crimson;
@@ -30,8 +28,16 @@ ul {
 	margin-right: 0px;
 	color : #555;
 }
-
-
+	.horaires .horaires_grid {
+		margin : 6px;
+	}
+	.horaires ul {
+		padding-left : 15px;
+	}
+		.horaires ul li {
+			width : 250px;
+			margin-bottom: 10px;
+		}
 
 
 

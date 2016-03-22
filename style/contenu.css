@@ -1,0 +1,65 @@
+a {
+	text-decoration: none;
+	color : black;
+}
+
+.horaires {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	margin-top : 20px;
+	background-color: #CCC;
+}
+
+
+
+
+.navigation {
+	padding-top : 34px;
+	font-size: 1.13em;
+	float : right;
+	font-family: verdana, arial, sans-serif;
+	margin-bottom : 50px;
+}
+
+	.navigation > ul > li {
+		display: inline;
+	}
+	
+		.navigation > ul > li > a {
+			margin : 0px;
+			padding : 33px 25px 30px 25px;
+			-webkit-transition:all .3s ease;	
+			transition:all .3s ease		
+		}
+	
+		.navigation > ul > li > a:hover {
+			background:rgba(255,255,255,0.1);
+		}
+
+		.navigation > ul > li > a:active {
+			background:rgba(255,255,255,0.25);
+		}
+
+		.navigation > ul > li > a.on {
+			color: #f7a13c;
+		}*/

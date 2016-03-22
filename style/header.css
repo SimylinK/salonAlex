@@ -1,4 +1,4 @@
-.header *
+#header *
 {
     font-family: sans-serif;
 
@@ -9,24 +9,24 @@
     margin-bottom: 60px;
 }
 
-.header a
+#header a
 {
     text-decoration: none;
 }
-.header
+#header
 {
     background-color: #292c2f;
 }
 
 /* The company logo */
 
-.header a h1{
+#header a h1{
   color:  #ffffff;
   font: normal 36px 'Cookie', cursive;
   margin: 0;
 }
 
-.header a h1 span{
+#header a h1 span{
   color:  crimson;
 }
 

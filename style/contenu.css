@@ -62,14 +62,14 @@ ul {
 	.navigation > ul > li {
 		display: inline;
 	}
-	
+
 		.navigation > ul > li > a {
 			margin : 0px;
 			padding : 33px 25px 30px 25px;
-			-webkit-transition:all .3s ease;	
-			transition:all .3s ease		
+			-webkit-transition:all .3s ease;
+			transition:all .3s ease
 		}
-	
+
 		.navigation > ul > li > a:hover {
 			background:rgba(255,255,255,0.1);
 		}

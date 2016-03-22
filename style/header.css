@@ -1,17 +1,19 @@
-*
+.header *
 {
     font-family: sans-serif;
 
 
     margin: 0;
     padding: 0;
+
+    margin-bottom: 60px;
 }
 
-a
+.header a
 {
     text-decoration: none;
 }
-div
+.header
 {
     background-color: #292c2f;
 }
@@ -53,7 +55,7 @@ div
     color: #fff;
 }
 
-@media only screen and (max-width: 880px)
+@media only screen and (max-width: 882px)
 {
     ul
     {

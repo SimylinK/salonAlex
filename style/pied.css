@@ -1,10 +1,4 @@
 
-.footer-distributed {
-  margin:0;
-  padding:0;
-}
-
-
 
   /*pied de page*/
   .footer-distributed{
@@ -15,8 +9,12 @@
   	text-align: left;
   	font: bold 16px sans-serif;
 
-  	padding: 55px 50px;
-  	margin-top: 80px;
+  	padding: 20px 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  	margin-top: 50px;
+
+
   }
 
   .footer-distributed .footer-left,

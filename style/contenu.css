@@ -1,6 +1,7 @@
 body {
 	margin :0;
 	padding: 0;
+	background-color: #FEFEFE;
 }
 
 a {
@@ -33,7 +34,8 @@ table{
 
 .presentation {
 	padding-left: 15px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
+	margin-top : 10px;
 }
 	.presentation h2 {
 		font-family: "Cookie", Georgia, Serif;
@@ -74,12 +76,12 @@ table{
 	.horaires table td {
 		padding-left : 15px;
 	}
-		
+
 
 .apropos {
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
 	.apropos legend {
 		font-size: 1.10em;
@@ -90,7 +92,7 @@ table{
 		color : black;
 	}
 	.apropos .apropos_grid {
-		
+
 	}
 	.apropos ul {
 		padding-left : 15px;

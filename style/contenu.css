@@ -1,28 +1,114 @@
+body {
+	margin :0;
+	padding: 0;
+}
+
 a {
 	text-decoration: none;
 	color : black;
 }
 
-.horaires {
-	margin-left: 0px;
-	margin-right: 0px;
+p{
+	color : #555;
+}
+
+ul {
+	list-style-type: none;
+	color : #555;
+}
+
+table{
+	color : #555;
 }
 
 
+.crimson {
+	color : crimson;
+}
+
+.container_12 {
+	margin-top: 3px;
+}
+
+
+.presentation {
+	padding-left: 15px;
+	margin-bottom: 50px
+}
+	.presentation h2 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		width: 315px;
+		text-transform: uppercase;
+		font-size: 1.42em;
+		border-bottom: 1px solid crimson;
+	}
+	.presentation p {
+		letter-spacing: 1px;
+		line-height: 22px;
+	}
+
+.horaires {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 60px;
+}
+	.horaires legend {
+		font-size: 1.10em;
+	}
+	.horaires h1 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		color : black;
+	}
+	.horaires .horaires_grid {
+		margin : 6px;
+	}
+	.horaires ul {
+		padding-left : 15px;
+	}
+		.horaires ul li {
+			width : 250px;
+			margin-bottom: 10px;
+		}
+	.horaires table td {
+		padding-left : 15px;
+	}
+		
+
+.apropos {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+	.apropos legend {
+		font-size: 1.10em;
+	}
+	.apropos h1 {
+		font-family: "Cookie", Georgia, Serif;
+		font-weight: normal;
+		color : black;
+	}
+	.apropos .apropos_grid {
+		
+	}
+	.apropos ul {
+		padding-left : 15px;
+	}
+		.apropos ul li {
+			width : 250px;
+			margin-bottom: 10px;
+		}
+	.apropos table td {
+		padding-left : 15px;
+	}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+/*
 
 
 .footer{
@@ -44,14 +130,14 @@ a {
 	.navigation > ul > li {
 		display: inline;
 	}
-	
+
 		.navigation > ul > li > a {
 			margin : 0px;
 			padding : 33px 25px 30px 25px;
-			-webkit-transition:all .3s ease;	
-			transition:all .3s ease		
+			-webkit-transition:all .3s ease;
+			transition:all .3s ease
 		}
-	
+
 		.navigation > ul > li > a:hover {
 			background:rgba(255,255,255,0.1);
 		}

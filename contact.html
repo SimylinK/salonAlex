@@ -55,7 +55,7 @@
     <fieldset class="grid_12 horaires">
       <legend class="crimson">Contact</legend>
       <div class="grid_4 alpha horaires_grid"> <!--alpha pour retirer marge gauche-->
-        <p> Afin de mieux vous renseigner, merci de <b>compléter le formulaire</b> ci-dessous et de nous l'envoyer</p>
+        <!-- <p> Afin de mieux vous renseigner, merci de <b>compléter le formulaire</b> ci-dessous et de nous l'envoyer</p>
 
         <form id="formContact" name="Formulaire_de_contact" action="asp/formmail.asp" method="post">
 
@@ -87,7 +87,71 @@
               </ul>
             </div>
           </div>
-        </form>
+        </form> -->
+<form class="form-horizontal">
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input id="Prénom" name="Prénom" placeholder="Prénom" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input id="Nom" name="Nom" placeholder="Nom" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input id="email" name="email" placeholder="E-mail" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input id="Fax" name="Fax" placeholder="Fax" class="form-control input-md" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <div class="col-md-4">
+  <input id="Téléphone" name="Téléphone" placeholder="Téléphone" class="form-control input-md" type="text">
+
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <div class="col-md-4">
+    <textarea class="form-control" id="Message" name="Message" rows="6"></textarea>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <div class="col-md-8">
+    <button id="send" name="send" class="btn btn-warning">Envoyer</button>
+    <button id="Reset" name="Reset" class="btn btn-danger">Reset</button>
+  </div>
+</div>
+
+</form>
+
+
+
+
+
+
       </div>
       <div class="grid_4 horaires_grid">
       </div>

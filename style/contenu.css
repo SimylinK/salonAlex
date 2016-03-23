@@ -38,7 +38,7 @@ table{
 	margin-top : 20px;
 }
 	.presentation h2 {
-		font-family: "Cookie", Georgia, Serif;
+		font-family: 'Noto Serif', serif;
 		font-weight: normal;
 		width: 315px;
 		text-transform: uppercase;
@@ -59,7 +59,7 @@ table{
 		font-size: 1.10em;
 	}
 	.horaires h1 {
-		font-family: "Cookie", Georgia, Serif;
+		font-family: 'Noto Serif', serif;
 		font-weight: normal;
 		color : black;
 	}
@@ -87,7 +87,7 @@ table{
 		font-size: 1.10em;
 	}
 	.apropos h1 {
-		font-family: "Cookie", Georgia, Serif;
+		font-family: 'Noto Serif', serif;
 		font-weight: normal;
 		color : black;
 	}

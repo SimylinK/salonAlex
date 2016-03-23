@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Salon Axel</title>
+  <link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="style/pied.css">
   <link rel="stylesheet" type="text/css" href="style/header.css">
   <link rel="stylesheet" type="text/css" href="style/contenu.css" />
@@ -25,7 +26,7 @@
           Horaire et tarifs
         </li>
       </a>
-      <a href="salon.html">
+      <a href="#">
         <li>
           Le salon
         </li>
@@ -44,17 +45,15 @@
   <div class="container_12">
     <fieldset class="grid_12 horaires">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1139.3911619560215!2d-1.5622973678779657!3d47.21767502882855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ec1ddd1ef27b%3A0x6cb833afc801a780!2sAxel+Salon!5e0!3m2!1sfr!2sfr!4v1458670737172" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <div class="clear"></div> <!--pour revenir à la ligne (même si ici pas forcément nécessaire vu que ca reviendra logiquement automatiquement à la ligne car plus de place-->
+      <div class="clear"></div> 
     </fieldset>
   </div>
 
 
-
-
   <div class="container_12">
-    <fieldset class="grid_12 horaires">
+    <fieldset class="grid_12">
       <legend class="crimson">Contact</legend>
-      <div class="grid_4 alpha horaires_grid"> <!--alpha pour retirer marge gauche-->
+       <!--alpha pour retirer marge gauche-->
         <!-- <p> Afin de mieux vous renseigner, merci de <b>compléter le formulaire</b> ci-dessous et de nous l'envoyer</p>
 
         <form id="formContact" name="Formulaire_de_contact" action="asp/formmail.asp" method="post">
@@ -88,88 +87,86 @@
             </div>
           </div>
         </form> -->
-<form class="form-horizontal">
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4">
-  <input id="Prénom" name="Prénom" placeholder="Prénom" class="form-control input-md" required="" type="text">
-
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4">
-  <input id="Nom" name="Nom" placeholder="Nom" class="form-control input-md" required="" type="text">
-
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4">
-  <input id="email" name="email" placeholder="E-mail" class="form-control input-md" required="" type="text">
-
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4">
-  <input id="Fax" name="Fax" placeholder="Fax" class="form-control input-md" type="text">
-
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <div class="col-md-4">
-  <input id="Téléphone" name="Téléphone" placeholder="Téléphone" class="form-control input-md" type="text">
-
-  </div>
-</div>
-
-<!-- Textarea -->
-<div class="form-group">
-  <div class="col-md-4">
-    <textarea class="form-control" id="Message" name="Message" rows="6"></textarea>
-  </div>
-</div>
-
-<!-- Button (Double) -->
-<div class="form-group">
-  <div class="col-md-8">
-    <button id="send" name="send" class="btn btn-warning">Envoyer</button>
-    <button id="Reset" name="Reset" class="btn btn-danger">Reset</button>
-  </div>
-</div>
-
-</form>
 
 
+      <div class="grid_7 alpha">
+        <form class="form-horizontal">
 
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="Prénom" name="Prénom" placeholder="Prénom" class="form-control input-md" required="" type="text">
 
+          </div>
+        </div>
 
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="Nom" name="Nom" placeholder="Nom" class="form-control input-md" required="" type="text">
 
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="email" name="email" placeholder="E-mail" class="form-control input-md" required="" type="text">
+
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="Fax" name="Fax" placeholder="Fax" class="form-control input-md" type="text">
+
+          </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <div class="col-md-4">
+          <input id="Téléphone" name="Téléphone" placeholder="Téléphone" class="form-control input-md" type="text">
+
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <div class="col-md-4">
+            <textarea class="form-control" id="Message" name="Message" rows="6"></textarea>
+          </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+          <div class="col-md-8">
+            <button id="send" name="send" class="btn btn-warning">Envoyer</button>
+            <button id="Reset" type ="reset" name="Reset" class="btn btn-danger">Reset</button>
+          </div>
+        </div>
+
+        </form>
+        <div class="clear"></div>
       </div>
-      <div class="grid_4 horaires_grid">
-      </div>
-      <div class="grid_4 omega horaires_grid"> <!--omega pour retirer marge droite-->
+      
+      <div class="grid_4 omega"> <!--omega pour retirer marge droite-->
         <div class="coordonnees">
           <p><strong>Le Axel's coiffure</strong><br>22 bis, rue Mercoeur<br>44000 Nantes<br>Tél. 02 40 47 02 99</p>
         </div>
 
         <p class="petit_texte">Vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent. Pour exercer ce droit, veuillez nous contacter par courrier électronique ou postal.</p>
 
-        <img class="dim_carousel"src="img/contact.jpg" alt="img_contact" />
+        <img class="img_contact" src="img/contact.jpg" alt="img_contact" />
 
       </div>
-      <div class="clear"></div> <!--pour revenir à la ligne (même si ici pas forcément nécessaire vu que ca reviendra logiquement automatiquement à la ligne car plus de place-->
+      <div class="clear"></div> 
     </fieldset>
   </div>
 
-    <div class="clear"></div>
+
+  <div class="clear"></div>
 
   <!-- pied de page -->
   <!-- The content of your page would go here. -->

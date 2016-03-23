@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
 
-    margin-bottom: 60px;
+   
 }
 
 
@@ -18,7 +18,7 @@
 #header
 
 {
-    background-color: #292c2f;
+    background-color: #232323;
 }
 
 /* The company logo */
@@ -99,7 +99,7 @@
 
         border-right: 3px solid crimson;
         border-bottom: 0;
-        background-color: #292c2f;
+        background-color: #232323;
     }
 
     #nav_mobile:focus

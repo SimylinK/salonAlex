@@ -170,6 +170,14 @@
     background-color: #333;
 }
 
+#header .head_activate
+{
+    height: 72px;
+
+    border-bottom: 8px solid crimson;
+}
+
+
 #header a span
 {
     color: crimson;

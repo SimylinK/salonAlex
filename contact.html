@@ -1,88 +1,114 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Salon Axel</title>
-    <link rel="stylesheet" type="text/css" href="style/pied.css">
-    <link rel="stylesheet" type="text/css" href="style/header.css">
-    <link rel="stylesheet" type="text/css" href="style/contenu.css" />
-    <link rel="stylesheet" type="text/css" href="style/grid.css" />
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="script/script.js"></script>
-  </head>
-  <body>
-    <div class="header" id="header">
-      <div  id="nav_mobile" tabindex="0">Menu</div>
-      <ul>
-        <a href="index.html">
-          <li>
-            Accueil
-          </li>
-        </a>
-        <a href="horaire.html">
-          <li>
-            Horaire et tarifs
-          </li>
-        </a>
-        <a href="salon.html">
-          <li>
-            Le salon
-          </li>
-        </a>
-        <a href="contact.html">
-          <li>
-            Contact
-          </li>
-        </a>
-      </ul>
-      <a href="index.html"><h1>Salon <span>A</span>xel</h1></a>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Salon Axel</title>
+  <link rel="stylesheet" type="text/css" href="style/pied.css">
+  <link rel="stylesheet" type="text/css" href="style/header.css">
+  <link rel="stylesheet" type="text/css" href="style/contenu.css" />
+  <link rel="stylesheet" type="text/css" href="style/grid.css" />
+  <link rel="stylesheet" type="text/css" href="style/contact.css" />
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="script/script.js"></script>
+</head>
+<body>
+  <div class="header" id="header">
+    <div  id="nav_mobile" tabindex="0">Menu</div>
+    <ul>
+      <a href="index.html">
+        <li>
+          Accueil
+        </li>
+      </a>
+      <a href="horaire.html">
+        <li>
+          Horaire et tarifs
+        </li>
+      </a>
+      <a href="salon.html">
+        <li>
+          Le salon
+        </li>
+      </a>
+      <a href="contact.html">
+        <li class="head_activate">
+          Contact
+        </li>
+      </a>
+    </ul>
+    <a href="index.html"><h1>Salon <span>A</span>xel</h1></a>
+  </div>
 
-    <div class="clear"></div>
+  <div class="clear"></div>
 
   <div class="container_12">
-  	<fieldset class="grid_12 horaires">
-  		<legend class="crimson">Horaires et tarifs</legend>
-  		<div class="grid_4 alpha horaires_grid"> <!--alpha pour retirer marge gauche-->
-  			<h1><span class="crimson">H</span>oraires</h1>
-        <table>
-          <tr><td>Lundi</td><td>-</td></tr>
-          <tr><td>Mardi</td><td>9h - 18h30</td></tr>
-          <tr><td>Mercredi</td><td>9h - 18h30</td></tr>
-          <tr><td>Jeudi</td><td>9h - 18h30</td></tr>
-          <tr><td>Vendredi</td><td>9h - 18h30</td></tr>
-          <tr><td>Samedi</td><td>9h - 17h</td></tr>
-        </table>
-  		</div>
-  		<div class="grid_4 horaires_grid">
-  			<h1><span class="crimson">T</span>arifs Femmes</h1>
-  			<ul>
-  				<li>Coupe courte : 32 €</li>
-  				<li>Coupe longue : 38 €</li>
-  				<li>Découverte (1ère coupe) : -50% + soins offerts</li>
-  			</ul>
-  		</div>
-  		<div class="grid_4 omega horaires_grid"> <!--omega pour retirer marge droite-->
-  			<h1><span class="crimson">T</span>arifs Hommes</h1>
-  			<ul>
-  				<li>Tarif normal : 24 €</li>
-  				<li>Découverte (1ère coupe) : -50% + soins offerts</li>
-  			</ul>
-  			<h1><span class="crimson">T</span>arifs Jeunes</h1>
-  			<p>Uniquement le mercredi et le jeudi !</p>
-  			<ul>
-  				<li>Réduction de 35% sur la coupe</li>
-  				<li>Soins pour seulement 5 euros</li>
-  			</ul>
-  		</div>
-  		<div class="clear"></div>
-  	</fieldset>
+    <fieldset class="grid_12 horaires">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1139.3911619560215!2d-1.5622973678779657!3d47.21767502882855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805ec1ddd1ef27b%3A0x6cb833afc801a780!2sAxel+Salon!5e0!3m2!1sfr!2sfr!4v1458670737172" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="clear"></div> <!--pour revenir à la ligne (même si ici pas forcément nécessaire vu que ca reviendra logiquement automatiquement à la ligne car plus de place-->
+    </fieldset>
+  </div>
+
+
+
+
+  <div class="container_12">
+    <fieldset class="grid_12 horaires">
+      <legend class="crimson">Contact</legend>
+      <div class="grid_4 alpha horaires_grid"> <!--alpha pour retirer marge gauche-->
+        <p> Afin de mieux vous renseigner, merci de <b>compléter le formulaire</b> ci-dessous et de nous l'envoyer</p>
+
+        <form id="formContact" name="Formulaire_de_contact" action="asp/formmail.asp" method="post">
+
+          <input name="_100_Formulaire" value="de contact" size="30" type="hidden">
+
+          <input name="_101_SiteWeb" size="20" value="www.salonaxel.com" type="hidden">
+
+          <div class="row uniform">
+            <div class="6u 12u(xsmall)"><input id="name" name="name" placeholder="Nom" type="text"></div>
+
+            <div class="6u 12u(xsmall)"><input id="prenom" name="prenom" placeholder="Prenom" type="email"></div>
+          </div>
+
+          <div class="row uniform">
+            <div class="12u"><input id="email" name="email" placeholder="Email" type="text"></div>
+            <div class="12u"><input id="telephone" name="telephone" placeholder="Telephone" type="text"></div>
+            <div class="12u"><input id="fax" name="fax" placeholder="Fax" type="text"></div>
+          </div>
+
+          <div class="row uniform">
+            <div class="12u"><textarea id="message" name="message" placeholder="Message" rows="6"></textarea></div>
+          </div>
+
+          <div class="row uniform">
+            <div class="12u">
+              <ul class="actions">
+                <li><input class="special" value="Envoyer" type="submit"></li>
+                <li><input value="Reset" type="reset"></li>
+              </ul>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="grid_4 horaires_grid">
+      </div>
+      <div class="grid_4 omega horaires_grid"> <!--omega pour retirer marge droite-->
+        <div class="coordonnees">
+          <p><strong>Le Axel's coiffure</strong><br>22 bis, rue Mercoeur<br>44000 Nantes<br>Tél. 02 40 47 02 99</p>
+          <div class="plan">
+            <a href="http://maps.google.fr/maps?f=q&amp;hl=fr&amp;q=22 bis  rue Mercoeur  44000 Nantes&amp;ie=UTF8&amp;z=17&amp;om=1&amp;iwloc=A" target="_blank"><br>Localisation (Google) : cliquez ici</a>
+          </div>
+        </div>
+
+        <p class="petit_texte">Vous disposez d'un droit d'accès, de rectification, de modification et de suppression des données qui vous concernent. Pour exercer ce droit, veuillez nous contacter par courrier électronique ou postal.</p>
+
+      </div>
+      <div class="clear"></div> <!--pour revenir à la ligne (même si ici pas forcément nécessaire vu que ca reviendra logiquement automatiquement à la ligne car plus de place-->
+    </fieldset>
   </div>
 
     <div class="clear"></div>
-    </div
 
-  <!--pied de page-->
+  <!-- pied de page -->
   <!-- The content of your page would go here. -->
 
   <footer class="footer-distributed">

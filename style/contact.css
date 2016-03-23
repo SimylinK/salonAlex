@@ -1,0 +1,12 @@
+#formContact input[type="text"], input[type="password"], input[type="email"], select, textarea {
+  -moz-appearance: none;
+  border-radius: 5px;
+  border: 2px solid #E4E4E4;
+  color: inherit;
+  display: block;
+  outline: 0px none;
+  padding: 0px 1em;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 10px;
+}

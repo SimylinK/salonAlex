@@ -1,6 +1,7 @@
 body {
 	margin :0;
 	padding: 0;
+	background-color: #FEFEFE;
 }
 
 a {
@@ -74,7 +75,7 @@ table{
 	.horaires table td {
 		padding-left : 15px;
 	}
-		
+
 
 .apropos {
 	margin-left: 0px;
@@ -90,7 +91,7 @@ table{
 		color : black;
 	}
 	.apropos .apropos_grid {
-		
+
 	}
 	.apropos ul {
 		padding-left : 15px;

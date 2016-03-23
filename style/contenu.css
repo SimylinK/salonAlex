@@ -34,7 +34,8 @@ table{
 
 .presentation {
 	padding-left: 15px;
-	margin-bottom: 50px
+	margin-bottom: 50px;
+	margin-top : 10px;
 }
 	.presentation h2 {
 		font-family: "Cookie", Georgia, Serif;
@@ -80,7 +81,7 @@ table{
 .apropos {
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
 	.apropos legend {
 		font-size: 1.10em;

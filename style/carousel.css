@@ -6,7 +6,10 @@
 
 .dim_carousel {
   width:100%;
-  height:100%;
+  /*height:100%;*/
+  /*max-width: 1280px;*/
+  /*box-shadow: 0px 700px 700px 0px #292c2f;*/
+  /*rgba(0, 0, 0, 0.7)*/
 }
 
 
@@ -259,8 +262,7 @@
 }
 
 .gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+  color: crimson;
 }
 
 .gallery .control-button:hover {
@@ -277,16 +279,18 @@
 }
 
 .gallery .item {
-  height: 750px;
+  height: 650px;
   overflow: hidden;
   text-align: center;
-  background: #292c2f;
+  background: #FEFEFE;
+  /*border-bottom: 3px solid crimson; */
 }
 
 .gallery .controls {
   position: absolute;
   bottom: 0;
   width: 100%;
+  /*height : 100%;*/
   text-align: center;
 
 
@@ -302,3 +306,25 @@
   -o-transition: color .1s;
   transition: color .1s;
 }
+
+/*
+@media (max-width: 1280px) {
+
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+
+}*/
